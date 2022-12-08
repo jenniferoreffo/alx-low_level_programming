@@ -1,16 +1,11 @@
 #include <stdio.h>
-
 #include <unistd.h>
 
 /**
+ * main - a C program that prints
  *
- *  * main - a C program that prints
- *
- *   *
- *
- *    * Return: Return 1.
- *
- *     */
+ * Return: Return 1.
+ */
 
 int main(void)
 
