@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_times_table - check alx 0-14
- * @n : An input integer value
- * Return: Always 0.
+ * print_times_table - prints times table for numbers from 0-14
+ * @n: An input integer value
+ * Return: Nothing
  */
 
 void putformat(int n);
@@ -18,20 +18,17 @@ void print_times_table(int n)
 		{
 			_putchar('0');
 			for (j = 1; j <= n; j++)
-
 				putformat(i * j);
 			_putchar('\n');
-
 		}
 	}
 }
 
 /**
- * putformat - formatted to output
+ * putformat - formatted characters to output
  * @n: number to format
  * Return: nothing
  */
-
 void putformat(int n)
 {
 	if (n <= 9)
@@ -47,7 +44,7 @@ void putformat(int n)
 		_putchar(',');
 		_putchar(' ');
 		_putchar(' ');
-		_puchar(n / 10 + '0');
+		_putchar(n / 10 + '0');
 		_putchar(n % 10 + '0');
 	}
 	else
