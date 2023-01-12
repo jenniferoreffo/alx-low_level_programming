@@ -3,11 +3,19 @@
 #include "main.h"
 
 /**
- * main - check alx student code
- * @argc: argument count
- * @argv: argument vector
- * Return: Nothing
+ * main - Program multiplies two positive numbers
+ * @argc: n arguments
+ * @argv: args
+ * Description: Usage: mul num1 num2. num1 and num2 will be passed in base 10
+ * Print the result, followed by a new line. 
+ * If the number of arguments is incorrect, print Error, followed by a
+ * new line, and exit with a status of 98
+ * num1 and num2 should only be composed of digits. If not, print Error,
+ * followed by a new line, and exit with a status of 98
+ *
+ * Return: int result
  */
+
 int main(int argc, char **argv[])
 {
 unsigned long mul;
