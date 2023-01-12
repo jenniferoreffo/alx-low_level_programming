@@ -14,7 +14,7 @@
  * Return: int result
  */
 
-int main(int argc, char **argv[])
+int main(int argc, char *argv[])
 {
 unsigned long mul;
 int i, j;
