@@ -1,8 +1,10 @@
-
 #!/usr/bin/python3
 """Module that calculates the perimeter of an island in a grid."""
 
 def num_water_bodies(grid, i, j):
+    """"This returns the number of water bodies a cell has in a grids."""
+    num = 0
+
     if i <= or not grid[i - 1][j]:
 	num += 1
     if j <= 0 or not grid[i] [j- 1]:
